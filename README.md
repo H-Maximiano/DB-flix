@@ -1,16 +1,22 @@
-# React + Vite
+# DB-flix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Catálogo interativo de animes inspirado em Netflix, feito com **React + Styled Components**.  
+Permite navegar pelas capas dos animes e, ao clicar, assistir aos episódios diretamente no player.
 
-Currently, two official plugins are available:
+## Funcionalidades
+- Exibição de capas de animes  
+- Clique para iniciar episódio  
+- Uso de estado (`useState`) para alternar entre capa e vídeo  
+- Layout responsivo e estilizado  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias usadas
+- React  
+- Styled Components  
+- JavaScript / JSX  
+- VSCode / ambiente local  
 
-## React Compiler
-
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como testar
+1. Clonar o repositório  
+2. Instalar dependências: `npm install`  
+3. Rodar o servidor de desenvolvimento: `npm run dev`  
+4. Acessar no navegador: `http://localhost:5173` (ou porta que seu projeto usa)  
